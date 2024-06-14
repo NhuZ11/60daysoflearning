@@ -1,3 +1,11 @@
+/**
+ *
+ *
+ * @author Nhuz
+ * @version 1.0
+ */
+
+
 import java.util.Scanner;
 import java.util.Random;
 
