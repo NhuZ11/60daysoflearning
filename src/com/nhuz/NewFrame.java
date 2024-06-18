@@ -14,7 +14,7 @@ public class NewFrame implements ActionListener {
     public NewFrame() {
         JFrame frame = new JFrame();
         frame.setTitle("Button");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         frame.setResizable(false);
         frame.setLayout(null);
         frame.setSize(420, 420);
