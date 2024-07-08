@@ -14,7 +14,7 @@ public class RockPaperGUI extends JFrame implements ActionListener {
 
 
     RockPaperGUI(){
-        this.setSize(500, 500);
+        this.setSize(400, 500);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setTitle("Rock Paper Scissor Game");
         this.setLayout(new FlowLayout());
@@ -46,6 +46,7 @@ public class RockPaperGUI extends JFrame implements ActionListener {
         this.add(body);
 
         JPanel footer = new JPanel();
+
         labelResult = new JLabel("");
         footer.add(labelResult);
         this.add(footer);
