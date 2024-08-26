@@ -4,6 +4,11 @@ public class Main {
     public static void main(String[] args) {
         // Create an instance of PersonBean using the no-argument constructor
         PersonBean person = new PersonBean();
+        CarBean car=new CarBean();
+
+        car.setName("Lamborghini");
+
+        System.out.println("The name of car is" + car.getName());
 
         // Set properties using setter methods
         person.setFirstName("John");

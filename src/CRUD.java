@@ -69,7 +69,7 @@ public class CRUD {
                 crud.createTable();
                 break;
             case 2:  //insert data
-                String InsertSql="insert into users(id,name,address) values('1','Ramesh','kalanki'),('2','shyam','thapathali')";
+                String InsertSql="insert into users(id,name,address) values('1','Ramesh','kalanki'),('3','ram','sitapaila')";
                 crud.insertUpdateDelete(InsertSql);
                 break;
             case 3:
