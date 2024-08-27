@@ -62,7 +62,7 @@ public class FlappyBird2 extends JFrame implements KeyListener {
         System.out.println("Boundary Location: " + boundryLocation);
 
         // Timer for falling motion
-        fallTimer = new Timer(10, new ActionListener() {
+        fallTimer = new Timer(40, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (Ylocation < getHeight() - label.getHeight()) {
